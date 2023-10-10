@@ -1,0 +1,14 @@
+@import url("../style.css");
+
+.simulador {
+  background-image: url('../../assets/imgs/banner.jpg');
+  background-size: cover;
+  color: #fff;
+
+}
+
+.simulador .container {
+  flex-direction: column;
+  overflow: scroll; 
+  height: var(--tamanho-simulador);
+}

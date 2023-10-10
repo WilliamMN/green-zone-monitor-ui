@@ -1,0 +1,56 @@
+@import url("../style.css");
+
+.banner {
+  height: var(--tamanho-banner);
+  background-image: url('../../assets/imgs/banner.jpg');
+  background-size: cover;
+}
+
+.banner .container {
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+}
+
+.banner .container p {
+  font-weight: 900;
+  font-size: 36px;
+  color: white;
+  width: 700px;
+}
+
+.banner .container span {
+  font-weight: 800;
+}
+
+.social {
+  background-color: #e5e5e5;
+  display: flex;
+}
+
+.social .container {
+  justify-content: center;
+}
+
+.box img {
+  width: 170px;
+}
+
+.social .container .boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  width: 280px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box p {
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+@import url("../style.css");
+
+.header {
+  height: var(--tamanho-header);
+  border-bottom: 2px solid #2ECC71;
+}
+
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+
+.header a, .agora a {
+  cursor: pointer;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.agora a {
+  font-weight: 800;
+  color: #2ECC71;
+}
+
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #779C6B;
+}
+
+.titulo {
+  color: #2ECC71;
+  width: fit-content;
+  font-weight: 500;
+}
+
+.header h1 {
+  margin: 0;
+}

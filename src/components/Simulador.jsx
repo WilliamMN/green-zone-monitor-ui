@@ -1,10 +1,16 @@
-import "./css/estilo.css";
+import { useEffect } from "react";
+import styles from "../css/simulador/Simulador.module.css";
 
-function Simulador() {
+function Simulador(props) {
+
+  useEffect(() => {
+    props.setPagina('simulador')
+  }, []);
+
   return (
     <>
-      <div className="simulador">
-        <div className="container">
+      <div className={styles["simulador"]}>
+        <div className={styles["container"]}>
             <h2>Simulador</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora architecto sint fugit
                 dolorum? Ipsum laborum magnam similique labore, voluptate amet reprehenderit rem ab blanditiis quisquam
