@@ -11,8 +11,8 @@ function Home(props) {
 
   return (
     <>
-      <div className={styles["banner"]}>
-        <div className={styles["container"]}>
+      <div className={styles.banner}>
+        <div className={styles.container}>
           <p>
             Sintonizados com a Natureza: Protegendo Florestas, Preservando o
             Futuro.
@@ -20,10 +20,10 @@ function Home(props) {
         </div>
       </div>
 
-      <div className={styles["social"]}>
-        <div className={styles["container"]}>
-          <div className={styles["boxes"]}>
-            <div className={styles["box"]}>
+      <div className={styles.social}>
+        <div className={styles.container}>
+          <div className={styles.boxes}>
+            <div className={styles.box}>
               <img src={planeta} />
               <h4>Missão</h4>
               <p>
@@ -33,7 +33,7 @@ function Home(props) {
                 accusantium cum dicta minima.
               </p>
             </div>
-            <div className={styles["box"]}>
+            <div className={styles.box}>
               <img src={lampada} />
               <h4>Visão</h4>
               <p>
@@ -43,7 +43,7 @@ function Home(props) {
                 accusantium cum dicta minima.
               </p>
             </div>
-            <div className={styles["box"]}>
+            <div className={styles.box}>
               <img src={terra} />
               <h4>Valores</h4>
               <p>

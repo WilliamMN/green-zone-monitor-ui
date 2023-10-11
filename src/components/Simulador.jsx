@@ -9,8 +9,8 @@ function Simulador(props) {
 
   return (
     <>
-      <div className={styles["simulador"]}>
-        <div className={styles["container"]}>
+      <div className={styles.simulador}>
+        <div className={styles.container}>
             <h2>Simulador</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora architecto sint fugit
                 dolorum? Ipsum laborum magnam similique labore, voluptate amet reprehenderit rem ab blanditiis quisquam

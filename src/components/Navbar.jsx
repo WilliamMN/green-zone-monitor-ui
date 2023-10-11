@@ -18,11 +18,11 @@ function Navbar(props) {
 
   return (
     <>
-      <div className={styles["header"]}>
-        <div className={styles["container"]}>
-          <h1 className={styles["titulo"]}>Green Zone</h1>
-          <ul className={styles["navbar"]}>
-            <li className={classeAtiva === "inicial" ? styles["agora"] : ""}>
+      <div className={styles.header}>
+        <div className={styles.container}>
+          <h1 className={styles.titulo}>Green Zone</h1>
+          <ul className={styles.navbar}>
+            <li className={classeAtiva === "inicial" ? styles.agora : ""}>
               <a
                 onClick={(event) => {
                   handleClick(event, "/");
@@ -31,7 +31,7 @@ function Navbar(props) {
                 Inicial
               </a>
             </li>
-            <li className={classeAtiva === "simulador" ? styles["agora"] : ""}>
+            <li className={classeAtiva === "simulador" ? styles.agora : ""}>
               <a
                 onClick={(event) => {
                   handleClick(event, "/simulador");
@@ -41,7 +41,7 @@ function Navbar(props) {
               </a>
             </li>
             <li>|</li>
-            <li className={classeAtiva === "login" ? styles["agora"] : ""}>
+            <li className={classeAtiva === "login" ? styles.agora : ""}>
               <a
                 onClick={(event) => {
                   handleClick(event, "/login");
@@ -50,7 +50,7 @@ function Navbar(props) {
                 Login
               </a>
             </li>
-            <li className={classeAtiva === "cadastro" ? styles["agora"] : ""}>
+            <li className={classeAtiva === "cadastro" ? styles.agora : ""}>
               <a
                 onClick={(event) => {
                   handleClick(event, "/cadastro");
