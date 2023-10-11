@@ -1,7 +1,7 @@
-import styles from "../css/home/Home.module.css";
-import planeta from "../assets/imgs/planet-earth_color.png";
-import lampada from "../assets/imgs/lightbulb_color.png";
-import terra from "../assets/imgs/growth_color.png";
+import styles from "@/css/home/Home.module.css";
+import planeta from "@/assets/imgs/planet-earth_color.png";
+import lampada from "@/assets/imgs/lightbulb_color.png";
+import terra from "@/assets/imgs/growth_color.png";
 import { useEffect } from "react";
 
 function Home(props) {

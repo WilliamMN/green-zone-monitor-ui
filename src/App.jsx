@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+import Navbar from "@/components/navbar/Navbar";
+import Body from "@/components/body/Body";
+import Footer from "@/components/footer/Footer";
 
 function App() {
   const [pagina, setPagina] = useState("inicial");

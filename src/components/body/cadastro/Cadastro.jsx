@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import styles from '../css/cadastro/Cadastro.module.css'
+import styles from "@/css/cadastro/Cadastro.module.css"
+import loading from "@/assets/gifs/circle-loading.gif";
 
 function Cadastro(props) {
 
   useEffect(() => {
-    props.setPagina('cadastro')
+    props.setPagina("cadastro")
   }, []);
 
   function cadastrar() {
@@ -42,7 +43,7 @@ function Cadastro(props) {
             <div className={styles.campo}>
               <span>Empresa:</span>
               <select name="empresas" id="listaEmpresas">
-                <option selected>Selecione uma empresa</option>
+                <option defaultValue={null}>Selecione uma empresa</option>
               </select>
             </div>
             <div className={styles.campo}>
@@ -53,10 +54,10 @@ function Cadastro(props) {
                 placeholder="******"
               />
             </div>
-            <button className={styles.botao} onClick={cadastrar()}>Cadastrar</button>
+            <button className={styles.botao} onClick={cadastrar}>Cadastrar</button>
           </div>
           <div id="div_aguardar" className={styles.loading_div}>
-            <img src="./assets/circle-loading.gif" id="loading-gif" />
+            <img src={loading} id="loading-gif" />
           </div>
 
           <div id="div_erros_login"></div>

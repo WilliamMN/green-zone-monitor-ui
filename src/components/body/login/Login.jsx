@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import styles from "../css/login/Login.module.css";
-import loading from "../assets/gifs/circle-loading.gif";
+import styles from "@/css/login/Login.module.css";
+import loading from "@/assets/gifs/circle-loading.gif";
 
 function Login(props) {
   useEffect(() => {
@@ -8,7 +8,7 @@ function Login(props) {
   }, []);
 
   function entrar() {
-    console.log("asd");
+    console.log("login");
   }
 
   return (
@@ -31,7 +31,7 @@ function Login(props) {
                 <span>Senha:</span>
                 <input id="senha_input" type="text" placeholder="******" />
               </div>
-              <button className={styles.botao} onClick={entrar()}>
+              <button className={styles.botao} onClick={entrar}>
                 Entrar
               </button>
             </div>

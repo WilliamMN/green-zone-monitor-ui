@@ -1,7 +1,7 @@
-@import url("../style.css");
+@import url("@/css/style.css");
 
 .simulador {
-  background-image: url('../../assets/imgs/banner.jpg');
+  background-image: url('@/assets/imgs/banner.jpg');
   background-size: cover;
   color: #fff;
 

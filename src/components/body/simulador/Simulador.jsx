@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styles from "../css/simulador/Simulador.module.css";
+import styles from "@/css/simulador/Simulador.module.css";
 
 function Simulador(props) {
 

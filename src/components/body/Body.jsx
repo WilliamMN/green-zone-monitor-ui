@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Simlador from "./Simulador";
-import Login from "./Login";
-import Cadastro from "./Cadastro";
-import Monitor from "./Monitor.jsx";
+import Home from "@/components/body/home/Home";
+import Simlador from "@/components/body/simulador/Simulador";
+import Login from "@/components/body/login/Login";
+import Cadastro from "@/components/body/cadastro/Cadastro";
+import Monitor from "@/components/body/monitor/Monitor.jsx";
 
 function Body(props) {
   return (
