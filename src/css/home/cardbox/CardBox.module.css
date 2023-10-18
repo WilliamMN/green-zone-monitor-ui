@@ -1,0 +1,18 @@
+@import url("@/css/home/Home.module.css");
+
+.box img {
+  width: 170px;
+}
+
+.box {
+  width: 280px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box p {
+  text-align: center;
+}

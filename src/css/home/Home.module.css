@@ -32,25 +32,8 @@
   justify-content: center;
 }
 
-.box img {
-  width: 170px;
-}
-
 .social .container .boxes {
   display: flex;
   justify-content: space-between;
   width: 100%;
-}
-
-.box {
-  width: 280px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.box p {
-  text-align: center;
 }
